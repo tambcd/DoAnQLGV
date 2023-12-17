@@ -18,10 +18,23 @@ namespace OutlookDemo.UserControls
             InitializeComponent();
         }
 
-        public void btnAdd_Click(object sender, EventArgs e)
+        public void showHideItem(bool ischeck)
         {
-            
+            bxGV.Visible = ischeck;
+            laberGv.Visible = ischeck;
+            txtMoney.Visible = ischeck;
+            labelMoney.Visible = ischeck;
+            txt_price.Visible = ischeck;
+            price.Visible = ischeck;
+            txtSumtime.Visible = ischeck;
+            LabelSumTime.Visible = ischeck;
+            btnAdd.Visible = !ischeck;
+
         }
-       
+
+        private void bxGV_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

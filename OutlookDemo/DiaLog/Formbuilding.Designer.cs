@@ -123,6 +123,7 @@
             this.btnDelete.Size = new System.Drawing.Size(85, 35);
             this.btnDelete.TabIndex = 58;
             this.btnDelete.Text = "Xóa";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSave
             // 
@@ -141,6 +142,7 @@
             this.btnSave.Size = new System.Drawing.Size(85, 35);
             this.btnSave.TabIndex = 57;
             this.btnSave.Text = "Lưu";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -155,7 +157,7 @@
             this.btnCancel.FillColor = System.Drawing.Color.Transparent;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Location = new System.Drawing.Point(265, 11);
+            this.btnCancel.Location = new System.Drawing.Point(19, 11);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(85, 35);
@@ -277,6 +279,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formbuilding";
             this.Text = "Formbuilding";
+            this.Load += new System.EventHandler(this.Formbuilding_Load);
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
             this.panel1.ResumeLayout(false);

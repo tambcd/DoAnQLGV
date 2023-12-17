@@ -63,13 +63,13 @@ namespace OutlookDemo.DiaLog
                     {
                         if (memberCode == "")
                         {
-                            query = "INSERT INTO [dbo].[member]([member_id],[member_name],[pass_word],[last_name],[first_name],[role],[gender],[member_code],[dateOfbirth],[hometown],[degree],[email],[phone_number]) " +
-                                                         "VALUES(NEWID(),@member_name,@pass_word,@last_name,@first_name,1,@gender,@member_code,@dateOfbirth,@hometown,@degree,@email,@phone_number)";
+                            query = "INSERT INTO [dbo].[member]([member_id],[member_name],[pass_word],[last_name],[first_name],[role],[gender],[member_code],[dateOfbirth],[hometown],[degree],[email],[phone_number],[unit_price]) " +
+                                                         "VALUES(NEWID(),@member_name,@pass_word,@last_name,@first_name,1,@gender,@member_code,@dateOfbirth,@hometown,@degree,@email,@phone_number,@unit_price)";
 
                         }
                         else
                         {
-                            query = "UPDATE [dbo].[member] SET [member_name] = @member_name,[pass_word] = @pass_word,[last_name] = @last_name,[first_name] = @first_name,[gender] = @gender,[member_code] = @member_code,[dateOfbirth] = @dateOfbirth,[hometown] = @hometown,[degree] = @degree,[email] = @email,[phone_number] = @phone_number WHERE [member_id] = @member_id";
+                            query = "UPDATE [dbo].[member] SET [member_name] = @member_name,[pass_word] = @pass_word,[last_name] = @last_name,[first_name] = @first_name,[gender] = @gender,[member_code] = @member_code,[dateOfbirth] = @dateOfbirth,[hometown] = @hometown,[degree] = @degree,[email] = @email,[phone_number] = @phone_number,[unit_price] = @unit_price WHERE [member_id] = @member_id";
                         }
                     }
                     else
@@ -99,6 +99,7 @@ namespace OutlookDemo.DiaLog
                             command.Parameters.AddWithValue("@degree", txtHV.Text);
                             command.Parameters.AddWithValue("@email", txtEmail.Text);
                             command.Parameters.AddWithValue("@phone_number", txtSDT.Text);
+                            command.Parameters.AddWithValue("@unit_price", txt_price.Value);
                         }                        
 
                         // Thực hiện câu lệnh INSERT
@@ -144,11 +145,15 @@ namespace OutlookDemo.DiaLog
             if (memberCode == "")
             {
                 txtHeaderAddmember.Text = "Thêm Giảng viên";
+                btnDelete.Visible = false;
+                btnSave.Text = "Lưu";
                 clearData();
             }
             else
             {
                 txtHeaderAddmember.Text = "Sửa Giảng viên";
+                btnDelete.Visible = true;
+                btnSave.Text = "Sửa";
                 getDataBycode(memberCode);
             }
 
@@ -168,6 +173,7 @@ namespace OutlookDemo.DiaLog
             RadioNam.Checked = true;
             RadioNu.Checked = false;
             RadioKhac.Checked = false;
+            txt_price.Value = 0;
 
         }
 
@@ -203,6 +209,7 @@ namespace OutlookDemo.DiaLog
                                 txtDOB.Value = new DateTime(((DateTime)reader["dateOfbirth"]).Year, ((DateTime)reader["dateOfbirth"]).Month, ((DateTime)reader["dateOfbirth"]).Day, 0, 0, 0);
                                 txtPass.Text = reader["pass_word"].ToString();
                                 txtUserName.Text = reader["member_name"].ToString();
+                                txt_price.Text = reader["unit_price"].ToString();
                                 if((Int32)(reader["gender"]) == 0)
                                 {
                                     RadioNam.Checked = true;

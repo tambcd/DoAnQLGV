@@ -27,8 +27,6 @@ D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.pdb
 D:\UI\OutlookDemo\OutlookDemo\bin\Debug\Guna.UI2.dll
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.UserControls.UserControlGiangVien.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.DiaLog.ActionUserForm.resources
-D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.UserControls.UserControlClass.resources
-D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.UserControls.UserControlClassSection.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.UserControls.UserControlLuongGV.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.FormLogin.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.DiaLog.Formbuilding.resources

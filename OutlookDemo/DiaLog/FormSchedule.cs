@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OutlookDemo.UserControls
+namespace OutlookDemo.DiaLog
 {
-    public partial class UserControlClass : UserControl
+    public partial class FormSchedule : Form
     {
-        public UserControlClass()
+        public FormSchedule()
         {
             InitializeComponent();
         }

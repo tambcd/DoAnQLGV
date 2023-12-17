@@ -73,8 +73,12 @@
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txtPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.txt_price = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.header.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_price)).BeginInit();
             this.SuspendLayout();
             // 
             // header
@@ -689,7 +693,7 @@
             this.btnCancel.FillColor = System.Drawing.Color.Transparent;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Location = new System.Drawing.Point(342, 14);
+            this.btnCancel.Location = new System.Drawing.Point(7, 14);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(85, 35);
@@ -750,11 +754,53 @@
             this.panel1.Size = new System.Drawing.Size(644, 60);
             this.panel1.TabIndex = 56;
             // 
+            // guna2HtmlLabel24
+            // 
+            this.guna2HtmlLabel24.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel24.Enabled = false;
+            this.guna2HtmlLabel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel24.ForeColor = System.Drawing.Color.Red;
+            this.guna2HtmlLabel24.Location = new System.Drawing.Point(404, 369);
+            this.guna2HtmlLabel24.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2HtmlLabel24.Name = "guna2HtmlLabel24";
+            this.guna2HtmlLabel24.Size = new System.Drawing.Size(9, 17);
+            this.guna2HtmlLabel24.TabIndex = 59;
+            this.guna2HtmlLabel24.Text = "*";
+            // 
+            // txtPrice
+            // 
+            this.txtPrice.BackColor = System.Drawing.Color.Transparent;
+            this.txtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPrice.Location = new System.Drawing.Point(339, 369);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(53, 17);
+            this.txtPrice.TabIndex = 58;
+            this.txtPrice.Text = "Đơn giá";
+            // 
+            // txt_price
+            // 
+            this.txt_price.BackColor = System.Drawing.Color.Transparent;
+            this.txt_price.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_price.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_price.Location = new System.Drawing.Point(339, 391);
+            this.txt_price.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
+            this.txt_price.Name = "txt_price";
+            this.txt_price.Size = new System.Drawing.Size(290, 35);
+            this.txt_price.TabIndex = 60;
+            // 
             // ActionUserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(644, 570);
+            this.Controls.Add(this.txt_price);
+            this.Controls.Add(this.guna2HtmlLabel24);
+            this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2HtmlLabel22);
             this.Controls.Add(this.txtFisrtName);
@@ -801,6 +847,7 @@
             this.header.ResumeLayout(false);
             this.header.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.txt_price)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -852,5 +899,8 @@
         private Guna.UI2.WinForms.Guna2Button btnSave;
         private Guna.UI2.WinForms.Guna2Button btnDelete;
         private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel24;
+        private Guna.UI2.WinForms.Guna2HtmlLabel txtPrice;
+        private Guna.UI2.WinForms.Guna2NumericUpDown txt_price;
     }
 }

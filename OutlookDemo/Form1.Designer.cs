@@ -64,9 +64,9 @@
             this.panel2.Controls.Add(this.main);
             this.panel2.Controls.Add(this.header);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(180, 0);
+            this.panel2.Location = new System.Drawing.Point(220, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1096, 684);
+            this.panel2.Size = new System.Drawing.Size(1143, 738);
             this.panel2.TabIndex = 1;
             // 
             // main
@@ -75,7 +75,7 @@
             this.main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.main.Location = new System.Drawing.Point(0, 44);
             this.main.Name = "main";
-            this.main.Size = new System.Drawing.Size(1096, 640);
+            this.main.Size = new System.Drawing.Size(1143, 694);
             this.main.TabIndex = 1;
             // 
             // header
@@ -89,7 +89,7 @@
             this.header.Dock = System.Windows.Forms.DockStyle.Top;
             this.header.Location = new System.Drawing.Point(0, 0);
             this.header.Name = "header";
-            this.header.Size = new System.Drawing.Size(1096, 44);
+            this.header.Size = new System.Drawing.Size(1143, 44);
             this.header.TabIndex = 0;
             // 
             // guna2Button7
@@ -100,7 +100,7 @@
             this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button7.ForeColor = System.Drawing.Color.White;
             this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
-            this.guna2Button7.Location = new System.Drawing.Point(904, 0);
+            this.guna2Button7.Location = new System.Drawing.Point(948, 0);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(35, 35);
             this.guna2Button7.TabIndex = 5;
@@ -115,7 +115,7 @@
             this.btnMini.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnMini.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMini.ForeColor = System.Drawing.Color.White;
-            this.btnMini.Location = new System.Drawing.Point(958, 3);
+            this.btnMini.Location = new System.Drawing.Point(1002, 0);
             this.btnMini.Name = "btnMini";
             this.btnMini.Size = new System.Drawing.Size(42, 25);
             this.btnMini.TabIndex = 5;
@@ -132,7 +132,7 @@
             this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Location = new System.Drawing.Point(1006, 3);
+            this.guna2Button8.Location = new System.Drawing.Point(1050, 0);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.Size = new System.Drawing.Size(42, 25);
             this.guna2Button8.TabIndex = 4;
@@ -149,7 +149,7 @@
             this.btnClose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(1054, 3);
+            this.btnClose.Location = new System.Drawing.Point(1098, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(42, 25);
             this.btnClose.TabIndex = 3;
@@ -169,6 +169,8 @@
             // 
             // txtSearch
             // 
+            this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.BorderRadius = 15;
             this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtSearch.DefaultText = "";
@@ -181,7 +183,7 @@
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtSearch.IconLeft")));
             this.txtSearch.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtSearch.Location = new System.Drawing.Point(147, 6);
+            this.txtSearch.Location = new System.Drawing.Point(343, 6);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(7);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
@@ -222,7 +224,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(180, 684);
+            this.panel1.Size = new System.Drawing.Size(220, 738);
             this.panel1.TabIndex = 0;
             // 
             // guna2Button9
@@ -239,13 +241,14 @@
             this.guna2Button9.Image = global::OutlookDemo.Properties.Resources.icons8_microsoft_outlook_50px;
             this.guna2Button9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button9.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button9.Location = new System.Drawing.Point(3, 448);
+            this.guna2Button9.Location = new System.Drawing.Point(3, 199);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(180, 43);
+            this.guna2Button9.Size = new System.Drawing.Size(220, 43);
             this.guna2Button9.TabIndex = 6;
             this.guna2Button9.Text = "Lịch";
             this.guna2Button9.UseTransparentBackground = true;
             this.guna2Button9.CheckedChanged += new System.EventHandler(this.guna2Button1_CheckedChanged);
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
             // 
             // guna2Button6
             // 
@@ -255,7 +258,7 @@
             this.guna2Button6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
             this.guna2Button6.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button6.Image")));
-            this.guna2Button6.Location = new System.Drawing.Point(20, 608);
+            this.guna2Button6.Location = new System.Drawing.Point(46, 665);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(124, 38);
             this.guna2Button6.TabIndex = 5;
@@ -276,13 +279,14 @@
             this.guna2Button5.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button5.Image")));
             this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button5.Location = new System.Drawing.Point(3, 385);
+            this.guna2Button5.Location = new System.Drawing.Point(3, 328);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(180, 43);
+            this.guna2Button5.Size = new System.Drawing.Size(220, 43);
             this.guna2Button5.TabIndex = 2;
             this.guna2Button5.Text = "Lương";
             this.guna2Button5.UseTransparentBackground = true;
             this.guna2Button5.CheckedChanged += new System.EventHandler(this.guna2Button1_CheckedChanged);
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button4
             // 
@@ -298,9 +302,9 @@
             this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button4.Location = new System.Drawing.Point(3, 322);
+            this.guna2Button4.Location = new System.Drawing.Point(3, 265);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(180, 43);
+            this.guna2Button4.Size = new System.Drawing.Size(220, 43);
             this.guna2Button4.TabIndex = 2;
             this.guna2Button4.Text = "Phòng Học";
             this.guna2Button4.UseTransparentBackground = true;
@@ -312,20 +316,21 @@
             this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button3.BorderRadius = 22;
             this.guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button3.Checked = true;
             this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.White;
             this.guna2Button3.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.guna2Button3.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button3.Location = new System.Drawing.Point(3, 256);
+            this.guna2Button3.Location = new System.Drawing.Point(3, 76);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(180, 43);
+            this.guna2Button3.Size = new System.Drawing.Size(220, 43);
             this.guna2Button3.TabIndex = 2;
-            this.guna2Button3.Text = "Học Phần";
+            this.guna2Button3.Text = "Chương trình học";
             this.guna2Button3.UseTransparentBackground = true;
             this.guna2Button3.CheckedChanged += new System.EventHandler(this.guna2Button1_CheckedChanged);
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -344,9 +349,9 @@
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button2.Location = new System.Drawing.Point(3, 193);
+            this.guna2Button2.Location = new System.Drawing.Point(3, 136);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 43);
+            this.guna2Button2.Size = new System.Drawing.Size(220, 43);
             this.guna2Button2.TabIndex = 2;
             this.guna2Button2.Text = "Lớp Học";
             this.guna2Button2.UseTransparentBackground = true;
@@ -358,7 +363,6 @@
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Button1.BorderRadius = 22;
             this.guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button1.Checked = true;
             this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.White;
             this.guna2Button1.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
             this.guna2Button1.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
@@ -368,9 +372,9 @@
             this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(7, 0);
-            this.guna2Button1.Location = new System.Drawing.Point(3, 133);
+            this.guna2Button1.Location = new System.Drawing.Point(3, 391);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(187, 43);
+            this.guna2Button1.Size = new System.Drawing.Size(220, 43);
             this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "Giảng Viên";
             this.guna2Button1.UseTransparentBackground = true;
@@ -390,7 +394,7 @@
             // imgSlide
             // 
             this.imgSlide.Image = ((System.Drawing.Image)(resources.GetObject("imgSlide.Image")));
-            this.imgSlide.Location = new System.Drawing.Point(142, 102);
+            this.imgSlide.Location = new System.Drawing.Point(182, 45);
             this.imgSlide.Name = "imgSlide";
             this.imgSlide.Size = new System.Drawing.Size(39, 101);
             this.imgSlide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -408,7 +412,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.ClientSize = new System.Drawing.Size(1276, 684);
+            this.ClientSize = new System.Drawing.Size(1363, 738);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
