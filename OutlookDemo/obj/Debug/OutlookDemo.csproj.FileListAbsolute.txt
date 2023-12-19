@@ -32,3 +32,4 @@ D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.FormLogin.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.DiaLog.Formbuilding.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.DiaLog.FormClass.resources
 D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.DiaLog.FormClassSection.resources
+D:\UI\OutlookDemo\OutlookDemo\obj\Debug\OutlookDemo.DiaLog.FormSchedule.resources

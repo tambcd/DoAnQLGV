@@ -123,6 +123,9 @@
     <EmbeddedResource Include="DiaLog\FormClassSection.resx">
       <DependentUpon>FormClassSection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DiaLog\FormSchedule.resx">
+      <DependentUpon>FormSchedule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
